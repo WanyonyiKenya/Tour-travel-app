@@ -1,0 +1,67 @@
+.mainhero{
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+}
+.abthero{
+    width: 100%;
+    height: 70vh;
+    position: relative;    
+}
+.abthero h1{
+    padding-top: 4rem !important;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.htext{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.htext h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background: rgb(107, 107, 199);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.htext p{
+    font-size: 1.3rem;
+    color: rgb(6, 2, 14);
+    padding: 0.5rem 0 2rem 0;
+}
+.htext .btnclass{
+    background:whitesmoke;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: gray;
+}
+@media screen and (max-width:555px) {
+    .htext h1{
+        padding: 10px 20px;
+    }
+    .htext p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+     }
+  
+    .htext .btnclass{
+        font-size: 1rem;
+        padding: .6rem 1.1rem;
+        border-radius: 6px;
+        align-items: center;
+      
+    } 
+    
+}

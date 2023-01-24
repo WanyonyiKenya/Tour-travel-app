@@ -1,14 +1,16 @@
 import React from 'react'
 import './hero.css'
 
-const Hero = () => {
+const Hero = ({hero, img, title, text,btn,btnclass}) => {
   return (
-    <div className='hero'>
+    <div className={hero}>
         <img alt='hero-img'
-             src=''
+             src={img}
         />
-        <div className='text'>
-            <h1>Experience the world with Masafu Trips</h1>
+        <div className='htext'>
+            <h1>{title}</h1>
+            <p>{text}</p>
+            <button className={btnclass}>{btn}</button>
         </div>
     </div>
   )

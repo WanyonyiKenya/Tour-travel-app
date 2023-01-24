@@ -48,7 +48,7 @@
 .nav-signup{
     display: none;
 }
-button{
+.sign-btn{
     padding: 0.5rem 1rem;
     white-space: normal;
     border-radius: 0.3rem;
@@ -57,7 +57,7 @@ button{
     border: none;
     cursor: pointer;
 }
-button:hover{
+.sign-btn:hover{
     background-color: grey;
     color: aquamarine;
     transition: 0.2s ease-in-out;
@@ -109,7 +109,7 @@ button:hover{
         background-color: grey;
         transition: none;
     }
-    button{
+    .sign-btn{
          display: none;
     }
     .nav-signup{

@@ -28,7 +28,7 @@ class Nav extends Component {
                          </li>  
                         )
                     }
-                   <button>Sign Up</button>
+                   <button className='sign-btn'>Sign Up</button>
                 </ul>
             </nav>
         )
