@@ -11,7 +11,9 @@ class Nav extends Component {
     render (){
         return (
             <nav className='nav'>
-                <h1 className='navlogo'>MASAFU TRIPS</h1>
+                <Link  className='navlogo' to='/'>
+                    <h2>MASAFU TRIPS</h2>
+                </Link>
                 <div className='mobile-icons' onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
@@ -19,10 +21,10 @@ class Nav extends Component {
                     {
                         MenuItems.map((item,i) => 
                            <li key={i}>
-                            <a className={item.cName} href={item.url} >
+                            <Link className={item.cName} to={item.url} >
                                 <i className= {item.icon}></i>
                                 {item.title}
-                            </a>
+                            </Link>
                          </li>  
                         )
                     }

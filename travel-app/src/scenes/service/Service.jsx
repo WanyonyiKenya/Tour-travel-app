@@ -1,8 +1,12 @@
 import React from 'react'
+import Nav from '../../components/nav/Nav'
+
 
 const Servece = () => {
   return (
-    <div>Servece</div>
+    <div>
+      <Nav />
+    </div>
   )
 }
 
