@@ -70,12 +70,12 @@ const ContactForm = () => {
             maxLength: 2500,
           })}
         />
-        {
+        {errors.message && (
           <p className="form-errors">
             {errors.message.type === "required" && "This field is required."}
             {errors.message.type === "pattern" && "Max-Characters is 2500"}
           </p>
-        }
+         )}
         <button type="submit">Send Message</button>
       </form>
     </div>
