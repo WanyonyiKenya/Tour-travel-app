@@ -1,0 +1,45 @@
+.form {
+  margin: 4rem 6rem;
+  color: gray;
+}
+
+.form form {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.form input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+}
+
+.form textarea {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+}
+.form button {
+  display: inline;
+  border-radius: 6px;
+  height: 2.5rem;
+}
+
+.form button:hover {
+  background: gray;
+  color: aliceblue;
+}
+@media screen and (max-width: 850px) {
+  .form {
+    margin: 4rem 2rem;
+  }
+  .form form {
+    padding-top: 2rem;
+    width: 90%;
+  }
+}

@@ -1,54 +1,54 @@
-.footer{
-    padding: 4rem 6rem;
-    background-color: gray;
-    color: whitesmoke;
+.footer {
+  padding: 4rem 6rem;
+  background-color: gray;
+  color: whitesmoke;
 }
-.top{
-    display: flex;
-    align-items: center;
-    text-align: start;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.top i{
-    color: whitesmoke;
-    font-size: 2rem;
-    margin-left: 1.1rem;
+.top i {
+  color: whitesmoke;
+  font-size: 2rem;
+  margin-left: 1.1rem;
 }
-.top i:hover{
-    color: wheat;
+.top i:hover {
+  color: wheat;
 }
-.bottom{
-    padding-top: 2rem;
-    text-align: start;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.bottom div{
-    display:flex;
-    flex-direction: column;
+.bottom div {
+  display: flex;
+  flex-direction: column;
 }
-.bottom h4{
-    font-size: 1.3rem;
-    padding: 1 rem 0 .8rem 0;
-}
-
-.bottom a{
-    text-decoration: none;
-    color: whitesmoke;
-    padding-bottom: .4rem;
-    font-size: 1.1rem;
+.bottom h4 {
+  font-size: 1.3rem;
+  padding: 1 rem 0 0.8rem 0;
 }
 
-@media screen and (max-width:850px) {
-    .footer{
-        padding: 4rem 2rem;
-    }
-    .footer i{
-        margin: 1rem 1rem 0 0 ;
-    }
-    .bottom div{
-        width: 50%;
-    }
+.bottom a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 4rem 2rem;
+  }
+  .footer i {
+    margin: 1rem 1rem 0 0;
+  }
+  .bottom div {
+    width: 50%;
+  }
 }
