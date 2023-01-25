@@ -13,8 +13,8 @@ const Home = () => {
       <Hero
         hero="mainhero"
         img={home}
-        title="Experience the World with Masafu Trips"
-        text="We are the leading travel agency in the world"
+        title="Experience Kenya with Us"
+        text="Showing off Kenya"
         btn="Travel with US"
         btnclass="btnclass"
       />

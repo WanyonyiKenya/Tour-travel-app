@@ -27,14 +27,16 @@ img {
 .htext h1 {
   font-size: 3rem;
   font-weight: 800;
-  background: rgb(107, 107, 199);
+  background: rgb(52, 7, 138);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .htext p {
-  font-size: 1.3rem;
-  color: rgb(6, 2, 14);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(52, 16, 151);
   padding: 0.5rem 0 2rem 0;
+  letter-spacing: 1rem;
 }
 .htext .btnclass {
   background: whitesmoke;
