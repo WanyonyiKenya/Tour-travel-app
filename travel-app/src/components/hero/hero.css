@@ -27,9 +27,7 @@ img {
 .htext h1 {
   font-size: 3rem;
   font-weight: 800;
-  background: rgb(52, 7, 138);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: blueviolet;
 }
 .htext p {
   font-size: 1.5rem;
