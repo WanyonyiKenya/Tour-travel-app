@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import './travel.css'
 
-import elgon1 from '../../assets/1.jpg'
-import elgon2 from '../../assets/2.jpg'
+
 
 export class TravelData extends Component {
   render() {

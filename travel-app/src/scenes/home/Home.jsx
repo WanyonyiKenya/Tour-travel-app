@@ -3,6 +3,7 @@ import Hero from '../../components/hero/Hero'
 import Nav from '../../components/nav/Nav'
 import home from '../../assets/home.jpg'
 import Travel from '../../components/destination/Travel'
+import Trip from '../../components/trips/Trip'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         btnclass='btnclass'
       />
       <Travel />
+      <Trip />
     </div>
   )
 }

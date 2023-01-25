@@ -1,5 +1,5 @@
 import React from 'react'
-import elgon1 from '../../assets/1.jpg'
+import elgon1 from '../../assets/1.png'
 import elgon2 from '../../assets/2.jpg'
 import mara1 from '../../assets/3.jpg'
 import mara2 from '../../assets/4.jpg'
