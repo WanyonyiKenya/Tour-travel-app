@@ -4,6 +4,7 @@ import Nav from '../../components/nav/Nav'
 import home from '../../assets/home.jpg'
 import Travel from '../../components/destination/Travel'
 import Trip from '../../components/trips/Trip'
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       />
       <Travel />
       <Trip />
+      <Footer/>
     </div>
   )
 }
