@@ -30,7 +30,7 @@ const ContactForm = () => {
         />
         {errors.name && (
           <p className="form-errors">
-            {errors.name.type === "Required" && "This field is required"}
+            {errors.name.type === "required" && "This field is required"}
             {errors.name.type === "minLength" &&
               "Minimum name length is 3 characters"}
           </p>

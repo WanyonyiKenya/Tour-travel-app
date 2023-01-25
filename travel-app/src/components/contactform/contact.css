@@ -36,7 +36,7 @@
 }
 .form-errors{
   color: red;
-  margin-top: 1px;
+
 }
 @media screen and (max-width: 850px) {
   .form {
