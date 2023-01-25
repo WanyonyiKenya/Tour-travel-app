@@ -13,7 +13,7 @@
 .top i{
     color: whitesmoke;
     font-size: 2rem;
-    margin-left: 1rem;
+    margin-left: 1.1rem;
 }
 .top i:hover{
     color: wheat;
@@ -26,7 +26,7 @@
     flex-wrap: wrap;
 }
 .bottom div{
-    display: flex;
+    display:flex;
     flex-direction: column;
 }
 .bottom h4{
