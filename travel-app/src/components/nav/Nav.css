@@ -94,7 +94,7 @@
   .nav-menu.active {
     left: 0;
     opacity: 1;
-    z-index: -1; /* enables the nav menu be displayedd on top of the nav-menuitems */
+    z-index: -1; 
   }
   .nav-links {
     display: block;
